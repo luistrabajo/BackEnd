@@ -6,28 +6,31 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.MapsId;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "clientes")
-public class Cliente {
+@Table(name = "items")
+public class Item {
+	
+	
+	
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long Id; 
-	
-	
-	private Integer cedula;
-	
-	
+ 	private Long item_id; 
+	private String codigo;
+	private String nombre;
+	private Double precio;
+	private Integer cantidad;
+	private Double valor_pro_uni;
 
 }
