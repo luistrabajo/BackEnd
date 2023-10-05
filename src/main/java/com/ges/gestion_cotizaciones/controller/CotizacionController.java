@@ -38,10 +38,10 @@ public class CotizacionController {
 	
 	
 	@PostMapping("/creac")
-	public ResponseEntity<?> creaCotizacion(@RequestBody Cotizacion cotizacion) {
+	public Cotizacion creaCotizacion(@RequestBody Cotizacion cotizacion) {
 		 cotizacionRepository.save(cotizacion);
 		
-		 return ResponseEntity.ok(cotizacion.toString());
+		 return cotizacion;
 		
 	}
 	
