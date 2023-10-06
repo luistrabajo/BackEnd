@@ -1,0 +1,12 @@
+com\ges\gestion_cotizaciones\controller\CotizacionController.class
+com\ges\gestion_cotizaciones\ServletInitializer.class
+com\ges\gestion_cotizaciones\entity\Cotizacion.class
+com\ges\gestion_cotizaciones\repository\ItemRepository.class
+com\ges\gestion_cotizaciones\entity\Product.class
+com\ges\gestion_cotizaciones\repository\ProductRepository.class
+com\ges\gestion_cotizaciones\entity\Cotizacion$CotizacionBuilder.class
+com\ges\gestion_cotizaciones\entity\Item.class
+com\ges\gestion_cotizaciones\entity\Item$ItemBuilder.class
+com\ges\gestion_cotizaciones\GestionCotizacionesApplication.class
+com\ges\gestion_cotizaciones\entity\Product$ProductBuilder.class
+com\ges\gestion_cotizaciones\repository\CotizacionRepository.class
